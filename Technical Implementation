@@ -1,0 +1,8 @@
+flowchart LR
+    A[Custom JSON Parser] --> B[In-Memory Processing]
+    B --> C1[Filtering]
+    B --> C2[Aggregation]
+    B --> C3[Group-By]
+    C1 --> D[Query Results]
+    C2 --> D
+    C3 --> D
